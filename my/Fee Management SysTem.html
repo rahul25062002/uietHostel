@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://localhost/fee%20management/courses.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Fee Management SysTem</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="./Fee Management SysTem_files/css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./Fee Management SysTem_files/bootstrap.css">
+    <link rel="stylesheet" href="./Fee Management SysTem_files/animate.css">
+    <link rel="stylesheet" href="./Fee Management SysTem_files/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="./Fee Management SysTem_files/ionicons.min.css">
+    <link rel="stylesheet" href="./Fee Management SysTem_files/font-awesome.min.css">
+    <link rel="stylesheet" href="./Fee Management SysTem_files/flaticon.css">
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="./Fee Management SysTem_files/style.css">
+  </head>
+  <body cz-shortcut-listen="true">
+    
+    <header role="banner">
+     
+      <nav class="navbar navbar-expand-md navbar-dark bg-light">
+        <div class="container">
+          <a class="navbar-brand absolute" href="http://localhost/fee%20management/home1.php">College</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <style type="text/css">
+  .nav-link{
+    text-transform: uppercase !important;
+  }
+</style>
+<div class="collapse navbar-collapse navbar-light" id="navbarsExample05">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="http://localhost/fee%20management/home1.php">Home</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="http://localhost/fee%20management/feedback.php">Feedback</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://localhost/fee%20management/about.php">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://localhost/fee%20management/contact.php">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://localhost/fee%20management/gallery.php">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://localhost/fee%20management/notice.php">Notice Board</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav absolute-right">
+              <li class="nav-item">
+                <a href="http://localhost/fee%20management/login.php" class="nav-link">Login</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://localhost/fee%20management/register.php" class="nav-link">Register</a>
+              </li>
+            </ul>
+            
+          </div>        </div>
+      </nav>
+    </header>
+    <!-- END header -->
+
+    <section class="site-hero site-hero-innerpage overlay" data-stellar-background-ratio="0.5" style="background-image: url(&quot;my/reg.jpg&quot;); min-height: 300px !important; background-position: -25px 168.5px;">
+      <div class="container">
+        <div class="row align-items-center site-hero-inner justify-content-center" style="min-height: 300px !important;">
+          <div class="col-md-8 text-center">
+
+            <div class="mb-5 element-animate fadeInUp element-animated">
+              <h1>Courses Register</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+
+
+   <section class="site-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12 box">
+            <form action="http://localhost/fee%20management/addcourses.php" method="post" enctype="multipart/form-data">
+              
+            <div class="row">
+              <div class="col-md-6">    
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                      <label for="name">Category </label>
+                    <select class="form-control" name="t1" required="required">
+                        <option>Select Category</option>
+                        <option value="sc">SC</option>
+                        <option value="bc">BC</option>
+                        <option value="gernal">GERNAL</option>
+                        <option value="other">OTHER</option>
+                    </select> 
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                      <label for="name">Class </label>
+                      <select class="form-control" name="t2" required="required">
+                        <option>Select Class</option>
+                        <option value="b.tech">B.TECH</option>
+                        <option value="m.tech">M.TECH</option>
+                         </select> 
+                     </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                      <label for="name">Department </label>
+                      <select class="form-control" name="t3" required="required">
+                        <option>Select Department</option>
+                        <option value="cse">CSE</option>
+                        <option value="it">IT</option>
+                        <option value="ece">ECE</option>
+                        <option value="mech">MECH</option>
+                        <option value="civil">CIVIL</option>
+                        <option value="all">ALL</option>    
+                         </select> 
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                      <label for="name">Semester </label>
+                      <select class="form-control" name="t4" required="required">
+                        <option>Select Semester</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>    
+                        <option value="7">7</option>    
+                        <option value="8">8</option>    
+                         </select> 
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                      <label for="name">Semester 1</label>
+                      <input type="name" id="name" class="form-control " name="t5" required="required">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                      <label for="name">Semester 2</label>
+                      <input type="email" id="name" class="form-control " name="t6" required="required">
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-6">    
+                  
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                      <label for="name">Semester 3</label>
+                      <input type="text" id="name" class="form-control " name="t7" required="required">
+                    </div>
+                  </div><div class="row">
+                    <div class="col-md-12 form-group">
+                      <label for="name">Semester 4</label>
+                      <input type="text" id="name" class="form-control " name="t8" required="required">
+                    </div>
+                  </div><div class="row">
+                    <div class="col-md-12 form-group">
+                      <label for="name">Semester 5</label>
+                      <input type="text" id="name" class="form-control " name="t9" required="required">
+                    </div>
+                  </div>
+<div class="row">
+                    <div class="col-md-12 form-group">
+                      <label for="name">Semester 6</label>
+                      <input type="text" id="name" class="form-control " name="t10" required="required">
+                    </div>
+                  </div>
+<div class="row">
+                    <div class="col-md-12 form-group">
+                      <label for="name">Semester 7</label>
+                      <input type="text" id="name" class="form-control " name="t11" required="required">
+                    </div>
+                  </div>
+<div class="row">
+                    <div class="col-md-12 form-group">
+                      <label for="name">Semester 8</label>
+                      <input type="text" id="name" class="form-control " name="t12" required="required">
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-6 form-group"><br>
+                      <input type="submit" value="Register" class="btn btn-primary">
+                    </div>
+                  </div>
+            </div>
+          </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- END section -->
+    
+  
+     <footer class="site-footer" style="background-image: url(images/big_image_3.jpg);">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-4">
+            <h3>About</h3>
+            <p style="text-align: justify;">The Kurukshetra University was established in 1956 as a unitary residential University and its foundation stone was laid by late Dr. Rajendra Prasad, the first President of India. Located in the holy city of Kurukshetra, land of the historical battle of 'Mahabharata' and the great message of Bhagwad Gita, its campus is situated on the western bank of Brahm Sarover (the holy tank) and extends over an area of over 400 acres. Starting with only the Department of Sanskrit, it has grown into a multi-faculty University as one of the premier centres for advanced study and research in the region.</p>
+          </div>
+          <div class="col-md-8 ml-auto">
+            <div class="row">
+              <div class="col-md-3">
+              	<h3>All Link</h3>
+                <ul class="list-unstyled">
+              <li><a href="http://localhost/fee%20management/home1.php">Home</a></li>
+              <li><a href="http://localhost/fee%20management/login.php">Login</a></li>
+              <li><a href="http://localhost/fee%20management/about.php">About</a></li>
+              <li><a href="http://localhost/fee%20management/gallery.php">Gallery</a></li>
+              <li><a href="http://localhost/fee%20management/contact.php">Contact</a></li>
+              <li><a href="http://localhost/fee%20management/feedback.php">Feedback</a></li>
+              <li><a href="http://localhost/fee%20management/notice.php">Notice Board</a></li>
+              <li><a href="http://localhost/fee%20management/register.php">New User</a></li>
+            </ul>
+              </div>
+              <div class="col-md-9">
+              	 <h3>Live Location</h3>
+                <iframe src="./Fee Management SysTem_files/embed.html" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>    <!-- END footer -->
+    
+    <!-- loader -->
+    <div id="loader" class="fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"></circle><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"></circle></svg></div>
+
+    <script src="./Fee Management SysTem_files/jquery-3.2.1.min.js.download"></script>
+    <script src="./Fee Management SysTem_files/jquery-migrate-3.0.0.js.download"></script>
+    <script src="./Fee Management SysTem_files/popper.min.js.download"></script>
+    <script src="./Fee Management SysTem_files/bootstrap.min.js.download"></script>
+    <script src="./Fee Management SysTem_files/owl.carousel.min.js.download"></script>
+    <script src="./Fee Management SysTem_files/jquery.waypoints.min.js.download"></script>
+    <script src="./Fee Management SysTem_files/jquery.stellar.min.js.download"></script>
+
+    
+    <script src="./Fee Management SysTem_files/main.js.download"></script>
+  
+</body></html>
